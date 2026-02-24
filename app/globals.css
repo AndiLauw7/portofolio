@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Instrument+Serif:ital@0;1&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+    --font-syne: 'Syne', sans-serif;
+    --font-dm-mono: 'DM Mono', monospace;
+    --font-instrument: 'Instrument Serif', serif;
+}
+
+* {
+    cursor: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #070b0e;
+    color: #e8eef2;
+    font-family: var(--font-syne);
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: #070b0e;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00ffaa;
+    border-radius: 2px;
+}
+
+::selection {
+    background: rgba(0, 255, 170, 0.2);
+    color: #00ffaa;
+}
+
+body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background: repeating-linear-gradient( 0deg, transparent, transparent 2px, rgba(0, 0, 0, 0.015) 2px, rgba(0, 0, 0, 0.015) 4px);
+    pointer-events: none;
+}
+
+.font-syne {
+    font-family: var(--font-syne) !important;
+}
+
+.font-mono {
+    font-family: var(--font-dm-mono) !important;
+}
+
+.font-serif {
+    font-family: var(--font-instrument) !important;
+}
+
+.bg-gradient-accent {
+    background: linear-gradient(135deg, #00ffaa, #00c8ff);
+}
+
+a,
+button,
+input,
+textarea,
+select,
+label {
+    cursor: none;
+}
