@@ -3,13 +3,20 @@ import "./globals.css";
 import { PageLayout } from "@/components/templates";
 
 export const metadata: Metadata = {
-  title: "Nama Kamu — Frontend Developer",
+  title: "Andi Lauw — Frontend Developer",
   description:
-    "Portfolio of a Frontend Developer specializing in React, Vue.js, TypeScript, and modern web technologies.",
-  keywords: ["frontend developer", "react", "angular", "typescript", "next", "portfolio"],
-  authors: [{ name: "Nama Kamu" }],
+    "Portofolio seorang Pengembang Frontend yang mengkhususkan diri dalam React, TypeScript, dan teknologi web modern.",
+  keywords: [
+    "frontend developer",
+    "react",
+    "angular",
+    "typescript",
+    "next",
+    "portfolio",
+  ],
+  authors: [{ name: "Andi Lauw" }],
   openGraph: {
-    title: "Nama Kamu — Frontend Developer",
+    title: "Andi Lauw — Frontend Developer",
     description: "Crafting beautiful, performant digital experiences.",
     type: "website",
   },

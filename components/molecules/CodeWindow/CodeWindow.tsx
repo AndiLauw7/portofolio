@@ -4,20 +4,106 @@ import { useEffect, useState } from "react";
 
 const CODE_LINES = [
   { indent: 0, content: [{ t: "comment", v: "// Hello, World! 👋" }] },
-  { indent: 0, content: [{ t: "kw", v: "const " }, { t: "var", v: "developer" }, { t: "plain", v: " = {" }] },
-  { indent: 1, content: [{ t: "prop", v: "name" }, { t: "plain", v: ": " }, { t: "str", v: '"Nama Kamu"' }, { t: "plain", v: "," }] },
-  { indent: 1, content: [{ t: "prop", v: "role" }, { t: "plain", v: ": " }, { t: "str", v: '"Frontend Developer"' }, { t: "plain", v: "," }] },
-  { indent: 1, content: [{ t: "prop", v: "experience" }, { t: "plain", v: ": " }, { t: "num", v: "3" }, { t: "comment", v: ", // years" }] },
-  { indent: 1, content: [{ t: "prop", v: "stack" }, { t: "plain", v: ": [" }] },
-  { indent: 2, content: [{ t: "str", v: '"React"' }, { t: "plain", v: ", " }, { t: "str", v: '"Vue.js"' }, { t: "plain", v: "," }] },
-  { indent: 2, content: [{ t: "str", v: '"TypeScript"' }, { t: "plain", v: ", " }, { t: "str", v: '"Next.js"' }] },
+  {
+    indent: 0,
+    content: [
+      { t: "kw", v: "const " },
+      { t: "var", v: "developer" },
+      { t: "plain", v: " = {" },
+    ],
+  },
+  {
+    indent: 1,
+    content: [
+      { t: "prop", v: "name" },
+      { t: "plain", v: ": " },
+      { t: "str", v: '"Andi Lauw"' },
+      { t: "plain", v: "," },
+    ],
+  },
+  {
+    indent: 1,
+    content: [
+      { t: "prop", v: "role" },
+      { t: "plain", v: ": " },
+      { t: "str", v: '"Frontend Developer"' },
+      { t: "plain", v: "," },
+    ],
+  },
+  {
+    indent: 1,
+    content: [
+      { t: "prop", v: "experience" },
+      { t: "plain", v: ": " },
+      { t: "num", v: "2" },
+      { t: "comment", v: ", // years" },
+    ],
+  },
+  {
+    indent: 1,
+    content: [
+      { t: "prop", v: "stack" },
+      { t: "plain", v: ": [" },
+    ],
+  },
+  {
+    indent: 2,
+    content: [
+      { t: "str", v: '"React"' },
+      { t: "plain", v: ", " },
+      { t: "str", v: '"Next"' },
+      { t: "plain", v: "," },
+      { t: "str", v: '"Angular"' },
+      { t: "plain", v: "," },
+    ],
+  },
+  {
+    indent: 2,
+    content: [
+      { t: "str", v: '"TypeScript"' },
+      { t: "plain", v: ", " },
+      { t: "str", v: '"Javascript"' },
+    ],
+  },
   { indent: 1, content: [{ t: "plain", v: "]," }] },
-  { indent: 1, content: [{ t: "prop", v: "passion" }, { t: "plain", v: ": " }, { t: "str", v: '"UI/UX & Performance"' }, { t: "plain", v: "," }] },
-  { indent: 1, content: [{ t: "prop", v: "available" }, { t: "plain", v: ": " }, { t: "kw", v: "true" }] },
+  {
+    indent: 1,
+    content: [
+      { t: "prop", v: "passion" },
+      { t: "plain", v: ": " },
+      { t: "str", v: '"UI/UX & Performance"' },
+      { t: "plain", v: "," },
+    ],
+  },
+  {
+    indent: 1,
+    content: [
+      { t: "prop", v: "available" },
+      { t: "plain", v: ": " },
+      { t: "kw", v: "true" },
+    ],
+  },
   { indent: 0, content: [{ t: "plain", v: "};" }] },
   { indent: 0, content: [] },
-  { indent: 0, content: [{ t: "fn", v: "console" }, { t: "plain", v: "." }, { t: "fn", v: "log" }, { t: "plain", v: "(" }, { t: "str", v: '"Let\'s build"' }] },
-  { indent: 1, content: [{ t: "plain", v: "+ " }, { t: "str", v: '"something great!"' }, { t: "plain", v: ");" }, { t: "cursor", v: "" }] },
+  {
+    indent: 0,
+    content: [
+      { t: "fn", v: "console" },
+      { t: "plain", v: "." },
+      { t: "fn", v: "log" },
+      { t: "plain", v: "(" },
+      { t: "str", v: '"Let\'s build"' },
+    ],
+  },
+  {
+    indent: 1,
+    content: [
+      { t: "plain", v: "+ " },
+      { t: "str", v: '"something great!"' },
+      { t: "plain", v: ");" },
+      { t: "cursor", v: "" },
+    ],
+  },
 ];
 
 const colorMap: Record<string, string> = {

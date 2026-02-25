@@ -54,21 +54,32 @@ export function AboutSection() {
           {/* Text */}
           <motion.div variants={itemVariants} className="space-y-5">
             {[
+              // <>
+              //   Saya adalah seorang <strong className="text-accent font-medium">Frontend Developer</strong> yang berbasis di Indonesia,
+              //   dengan fokus pada pembuatan aplikasi web yang performan, aksesibel, dan memikat secara visual.
+              // </>,
+              // <>
+              //   Perjalanan saya dimulai dari ketertarikan mendalam pada dunia desain dan teknologi.
+              //   Kini saya mengkhususkan diri dalam ekosistem <strong className="text-accent font-medium">React & Vue.js</strong>,
+              //   dengan pemahaman kuat tentang arsitektur frontend modern.
+              // </>,
+              // <>
+              //   Ketika tidak coding, saya mengeksplorasi <strong className="text-accent font-medium">design systems</strong>,
+              //   berkontribusi ke open source, dan terus belajar hal baru di dunia web.
+              // </>,
               <>
-                Saya adalah seorang <strong className="text-accent font-medium">Frontend Developer</strong> yang berbasis di Indonesia,
-                dengan fokus pada pembuatan aplikasi web yang performan, aksesibel, dan memikat secara visual.
-              </>,
-              <>
-                Perjalanan saya dimulai dari ketertarikan mendalam pada dunia desain dan teknologi.
-                Kini saya mengkhususkan diri dalam ekosistem <strong className="text-accent font-medium">React & Vue.js</strong>,
-                dengan pemahaman kuat tentang arsitektur frontend modern.
-              </>,
-              <>
-                Ketika tidak coding, saya mengeksplorasi <strong className="text-accent font-medium">design systems</strong>,
-                berkontribusi ke open source, dan terus belajar hal baru di dunia web.
+                Pengembang Web Frontend yang berfokus pada pengembangan
+                antarmuka web modern, responsif, dan skalabel. Berpengalaman
+                dalam mengelola seluruh siklus pengembangan aplikasi web, mulai
+                dari desain hingga implementasi. Terbiasa bekerja secara mandiri
+                maupun kolaboratif dalam tim, dengan komitmen yang kuat terhadap
+                kualitas kode, kinerja, dan pengalaman pengguna.
               </>,
             ].map((para, i) => (
-              <p key={i} className="font-mono text-[0.87rem] leading-loose text-ink-muted">
+              <p
+                key={i}
+                className="font-mono text-[0.87rem] leading-loose text-ink-muted"
+              >
                 {para}
               </p>
             ))}

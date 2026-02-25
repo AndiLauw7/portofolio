@@ -112,25 +112,19 @@ export const CONTACT_LINKS: ContactLink[] = [
   {
     icon: "✉️",
     label: "Email",
-    href: "mailto:email@kamu.com",
-    display: "email@kamu.com",
+    href: "mailto:andi.safariansyah7@gmail.com",
+    display: "andi.safariansyah7@gmail.com",
   },
   {
     icon: "💼",
     label: "LinkedIn",
-    href: "https://linkedin.com/in/namakamu",
-    display: "linkedin.com/in/namakamu",
+    href: "https://www.linkedin.com/in/andi-safariansyah/",
+    display: "linkedin.com/in/andi-safariansyah/",
   },
   {
     icon: "🐙",
     label: "GitHub",
-    href: "https://github.com/namakamu",
-    display: "github.com/namakamu",
-  },
-  {
-    icon: "🐦",
-    label: "Twitter",
-    href: "https://twitter.com/namakamu",
-    display: "@namakamu",
+    href: "https://github.com/AndiLauw7",
+    display: "github.com/AndiLauw7",
   },
 ];

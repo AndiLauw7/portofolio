@@ -43,7 +43,7 @@ export function HeroSection() {
           style={{ fontSize: "clamp(3.5rem, 6vw, 6.5rem)" }}
           {...fadeUp(0.35)}
         >
-          Nama
+          Andi
           <br />
           <span
             className="text-transparent"
@@ -53,7 +53,7 @@ export function HeroSection() {
               backgroundClip: "text",
             }}
           >
-            Kamu.
+            Safariansyah.
           </span>
         </motion.h1>
 
@@ -69,9 +69,12 @@ export function HeroSection() {
           className="font-mono text-[0.85rem] leading-loose text-ink-muted max-w-md mb-10"
           {...fadeUp(0.65)}
         >
-          Saya membangun interface yang tidak hanya terlihat indah — tetapi terasa{" "}
-          <span className="text-accent font-medium">hidup</span>. Spesialis React,
-          Vue.js, dan modern CSS dengan passion pada performa dan UX yang exceptional.
+          Pengembang antarmuka web modern, responsif, dan skalabel dengan
+          performa optimal guna memberikan pengalaman pengguna yang luar biasa.
+          {/* Saya membangun interface yang tidak hanya terlihat indah — tetapi
+          terasa <span className="text-accent font-medium">hidup</span>.
+          Spesialis React, Vue.js, dan modern CSS dengan passion pada performa
+          dan UX yang exceptional.  */}
         </motion.p>
 
         <motion.div className="flex gap-4 flex-wrap" {...fadeUp(0.8)}>
