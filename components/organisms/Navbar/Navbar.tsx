@@ -13,7 +13,7 @@ export function Navbar() {
       transition={{ duration: 0.6, ease: "easeOut" }}
     >
       <span className="font-mono text-[0.82rem] text-accent tracking-widest">
-        // YN.DEV
+        Lauw Dev
       </span>
 
       <ul className="hidden md:flex items-center gap-10">
