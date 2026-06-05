@@ -133,7 +133,7 @@ export const PROJECTS: Project[] = [
     category: "Company Profile",
     year: "2026",
     description:
-      "Mengembangkan situs web profil perusahaan UDIN secara mandiri dari awal hingga akhir",
+      "Mengembangkan situs web profil perusahaan Angs Motor secara mandiri dari awal hingga akhir",
     emoji: "",
     colorClass: "project-blue",
     stack: ["Javascript", "Next Js", "TypeScript"],
