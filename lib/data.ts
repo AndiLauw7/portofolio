@@ -80,7 +80,7 @@ export const PROJECTS: Project[] = [
     year: "2026",
     description:
       "Mengembangkan situs web profil perusahaan Ultra Digital Indonesia secara mandiri dari awal hingga akhir.",
-    emoji: "🏢",
+    emoji: "",
     colorClass: "project-blue",
     stack: [
       "Next.js",
@@ -100,7 +100,7 @@ export const PROJECTS: Project[] = [
     year: "2026",
     description:
       "Mengembangkan situs web profil perusahaan UDIN secara mandiri dari awal hingga akhir.",
-    emoji: "🏢",
+    emoji: "",
     colorClass: "project-blue",
     stack: [
       "Next.js",
@@ -120,10 +120,24 @@ export const PROJECTS: Project[] = [
     year: "2026",
     description:
       "Mengelola pengaturan infrastruktur WordPress secara mandiri pada server VPS Ubuntu.",
-    emoji: "🏢",
+    emoji: "",
     colorClass: "project-blue",
     stack: ["WordPress", "PHP", "MySQL", "Ubuntu", "Nginx", "Vps"],
     liveUrl: "https://berita.brnr.co.id/",
+    repoUrl: "#",
+    featured: true,
+  },
+  {
+    id: "angsMotor",
+    title: "Angs Motor Tangerang — Company Profile",
+    category: "Company Profile",
+    year: "2026",
+    description:
+      "Mengembangkan situs web profil perusahaan UDIN secara mandiri dari awal hingga akhir",
+    emoji: "",
+    colorClass: "project-blue",
+    stack: ["Javascript", "Next Js", "TypeScript"],
+    liveUrl: "https://angs-motor-tangerang.netlify.app/",
     repoUrl: "#",
     featured: true,
   },
