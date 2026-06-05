@@ -32,7 +32,7 @@ export const SKILLS: Skill[] = [
     tags: ["Tailwind CSS", "SASS/SCSS", "Framer Motion", "CSS Animations"],
   },
   {
-    id: "frameworks",
+    id: "Beckendframeworks",
     icon: "⚛️",
     name: "Backend Frameworks",
     description:

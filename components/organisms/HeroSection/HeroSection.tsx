@@ -35,7 +35,7 @@ export function HeroSection() {
           className="font-mono text-[0.72rem] text-accent tracking-[0.15em] uppercase mb-8 flex items-center gap-2"
           {...fadeUp(0.2)}
         >
-          <span className="text-ink-faint">// </span>Frontend Developer
+          <span className="text-ink-faint"> </span>Full Stack Developer
         </motion.div>
 
         <motion.h1
@@ -62,7 +62,7 @@ export function HeroSection() {
           style={{ fontSize: "clamp(1.1rem, 2vw, 1.6rem)" }}
           {...fadeUp(0.5)}
         >
-          Crafting digital experiences
+          {/* Crafting digital experiences */}
         </motion.p>
 
         <motion.p
